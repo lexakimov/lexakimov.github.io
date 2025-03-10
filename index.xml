@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lexakimov blog</title><link>https://lexakimov.github.io/</link><description>Recent content on lexakimov blog</description><generator>Hugo</generator><language>ru-ru</language><lastBuildDate>Wed, 05 Mar 2025 19:35:11 +0700</lastBuildDate><atom:link href="https://lexakimov.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Guava</title><link>https://lexakimov.github.io/dev/guava/</link><pubDate>Wed, 05 Mar 2025 19:35:11 +0700</pubDate><guid>https://lexakimov.github.io/dev/guava/</guid><description>&lt;p>TODO тест тест тест тест тест тест тест&lt;/p></description></item><item><title>Как "готовить" spring-kafka</title><link>https://lexakimov.github.io/dev/spring-kafka/</link><pubDate>Wed, 05 Mar 2025 19:35:11 +0700</pubDate><guid>https://lexakimov.github.io/dev/spring-kafka/</guid><description>&lt;p>TODO тест тест тест тест тест тест тест&lt;/p></description></item><item><title>Первая запись блога</title><link>https://lexakimov.github.io/misc/first-article/</link><pubDate>Fri, 22 Nov 2024 19:09:41 +0700</pubDate><guid>https://lexakimov.github.io/misc/first-article/</guid><description>&lt;h2 id="cactus">Cactus&lt;/h2>
+&lt;p>A hugo theme for personal blog. Fork from hexo theme &lt;a href="https://github.com/probberechts/hexo-theme-cactus">cactus&lt;/a> created by @probberechts.&lt;/p>
+&lt;p>&lt;a href="https://www.takuzen.me/hugo-theme-cactus/">Live demo on github pages&lt;/a>.&lt;/p>
+&lt;p>Some works are still in progress. See &lt;a href="#todos">TODOS&lt;/a> below.&lt;/p>
+&lt;h2 id="install">Install&lt;/h2>
+&lt;ol>
+&lt;li>clone cactus to your hugo site&amp;rsquo;s &lt;code>themes&lt;/code> folder.&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>git clone https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>change your theme to cactus in your site config&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># config.toml&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;cactus&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>config your site. See [Config] or a &lt;a href="exampleSite/config.toml">complete config sample&lt;/a>&lt;/li>
+&lt;li>test your site&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>hugo server
+&lt;/code>&lt;/pre>&lt;ol start="5">
+&lt;li>publish your site in your prefered way. See hugo&amp;rsquo;s doc: &lt;a href="https://gohugo.io/hosting-and-deployment/">Hosting &amp;amp; Deployment&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="config">Config&lt;/h2>
+&lt;h3 id="color-themes">Color themes&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">params&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">colortheme&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;white&amp;#34;&lt;/span> &lt;span style="color:#75715e"># dark, light, white, or classic&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="custom-css">Custom CSS&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">params&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">css&lt;/span> = [&lt;span style="color:#e6db74">&amp;#34;css/custom.css&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can add multiple custom stylesheets which will be loaded after the main theme css.
+For example, the above line will load the CSS-file placed at &lt;code>/static/css/custom.css&lt;/code>.&lt;/p></description></item></channel></rss>
